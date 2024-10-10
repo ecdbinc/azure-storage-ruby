@@ -47,7 +47,7 @@ Gem::Specification.new do |s|
 
   s.required_ruby_version = ">= 2.3.0"
 
-  s.add_runtime_dependency("faraday", "~> 1")
+  s.add_runtime_dependency("faraday", "~> 1.10.4")
   s.add_runtime_dependency("faraday_middleware")
   s.add_runtime_dependency("net-http-persistent", "~> 4.0")
   s.add_runtime_dependency("nokogiri", "~> 1", ">= 1.10.8")
